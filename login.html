@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Canoe | Home Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section id="title">
+      <!-- Navbar Section -->
+      <div class="container-lg" id="nav">
+        <nav class="navbar navbar-expand-lg navbar-dark pt-5 mb-5">
+          <div class="container-fluid">
+            <a class="navbar-brand brand-text" href="#">Canoe</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="offcanvas offcanvas-end title"
+              itemid="title"
+              tabindex="-1"
+              id="offcanvasNavbar"
+              aria-labelledby="offcanvasNavbarLabel"
+            >
+              <div class="offcanvas-header">
+                <h5
+                  class="offcanvas-title brand-text"
+                  id="offcanvasNavbarLabel"
+                  style="color: white"
+                >
+                  Canoe
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active-page my-links"
+                      aria-current="page"
+                      href="#about"
+                      >Home</a
+                    >
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link my-links" href="#">Login</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link my-links" href="#">Register</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link my-links" href="#menu">Menu</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link my-links" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link my-links" href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <div class="row">
+          <div
+            class="col-lg-4"
+            data-aos="fade-up-right"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0"
+            data-aos-duration="1200"
+          >
+            <img
+              src="images/foods.webp"
+              class="food-img"
+              alt="image goes here..."
+            />
+          </div>
+          <div
+            class="col-lg-8 pt-4 pt-lg-0 content home-heading"
+            data-aos="fade-down-left"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0"
+            data-aos-duration="1200"
+          >
+            <h3>Welcome to Canoe Restaurant – Where Flavor Sets Sail!</h3>
+            <p style="text-align: justify">
+              Discover a culinary voyage like no other at Canoe Restaurant, your
+              go-to destination for exquisite dining experiences. Immerse
+              yourself in a world of tantalizing flavors and unparalleled
+              freshness, all from the comfort of your home. At Canoe, we believe
+              that great meals should be enjoyed effortlessly, which is why
+              we've crafted a seamless online ordering experience just for you.
+            </p>
+            <p class="typed"><span id="element"> </span></p>
+
+            <div class="d-flex">
+              <a href="login.php" class="login-button">Login</a>
+              <a href="register.php" class="register-button">Register</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="nothing"></div>
+
+    <section class="sample-menu" id="menu">
+      <div class="container text-center">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+          <div
+            class="col zoom"
+            data-aos="fade-down-right"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0"
+            data-aos-duration="1200"
+          >
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="images/sanap.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <p class="card-text">food description goes here...</p>
+                <a
+                  href="images/sanap.jpg"
+                  target="_blank"
+                  class="card-link my-card-link"
+                  >view</a
+                >
+                <a href="#" class="card-link my-card-link">$5</a>
+                <a href="#" class="card-link my-card-link">Appetizer</a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col zoom"
+            data-aos="fade-up-right"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0"
+            data-aos-duration="1200"
+          >
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="images/fruit.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <p class="card-text">food description goes here...</p>
+                <a
+                  href="images/fruit.jpg"
+                  target="_blank"
+                  class="card-link my-card-link"
+                  >view</a
+                >
+                <a href="#" class="card-link my-card-link">$6.5</a>
+                <a href="#" class="card-link my-card-link">Appetizer</a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col zoom"
+            data-aos="fade-up-left"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0"
+            data-aos-duration="1200"
+          >
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="images/combo2.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <p class="card-text">food description goes here...</p>
+                <a
+                  href="images/combo2.jpg"
+                  target="_blank"
+                  class="card-link my-card-link"
+                  >view</a
+                >
+                <a href="#" class="card-link my-card-link">$15</a>
+                <a href="#" class="card-link my-card-link">Combo</a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col zoom"
+            data-aos="fade-down-left"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0"
+            data-aos-duration="1200"
+          >
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="images/injera_combo.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <p class="card-text">food description goes here...</p>
+                <a
+                  href="images/injera_combo.jpg"
+                  target="_blank"
+                  class="card-link my-card-link"
+                  >view</a
+                >
+                <a href="#" class="card-link my-card-link">$17</a>
+                <a href="#" class="card-link my-card-link">Combo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+          <div
+            class="col zoom"
+            data-aos="fade-down-right"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0"
+            data-aos-duration="1200"
+          >
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="images/glassdis.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <p class="card-text">food description goes here...</p>
+                <a
+                  href="images/sanap.jpg"
+                  target="_blank"
+                  class="card-link my-card-link"
+                  >view</a
+                >
+                <a href="#" class="card-link my-card-link">$5</a>
+                <a href="#" class="card-link my-card-link">Dessert</a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col zoom"
+            data-aos="fade-up-right"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0"
+            data-aos-duration="1200"
+          >
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="images/redis.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <p class="card-text">food description goes here...</p>
+                <a
+                  href="images/fruit.jpg"
+                  target="_blank"
+                  class="card-link my-card-link"
+                  >view</a
+                >
+                <a href="#" class="card-link my-card-link">$6.5</a>
+                <a href="#" class="card-link my-card-link">Desert</a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col zoom"
+            data-aos="fade-up-left"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0"
+            data-aos-duration="1200"
+          >
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="images/whitedis.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <p class="card-text">food description goes here...</p>
+                <a
+                  href="images/kin.jpg"
+                  target="_blank"
+                  class="card-link my-card-link"
+                  >view</a
+                >
+                <a href="#" class="card-link my-card-link">$5.8</a>
+                <a href="#" class="card-link my-card-link">Desert</a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col zoom"
+            data-aos="fade-down-left"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0"
+            data-aos-duration="1200"
+          >
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="images/combo1.webp"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <p class="card-text">food description goes here...</p>
+                <a
+                  href="images/combo1.webp"
+                  target="_blank"
+                  class="card-link my-card-link"
+                  >view</a
+                >
+                <a href="#" class="card-link my-card-link">$17</a>
+                <a href="#" class="card-link my-card-link">Combo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+          <div
+            class="col zoom"
+            data-aos="fade-down-right"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0"
+            data-aos-duration="1200"
+          >
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="images/sprite.webp"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <p class="card-text">food description goes here...</p>
+                <a
+                  href="images/sprite.webp"
+                  target="_blank"
+                  class="card-link my-card-link"
+                  >view</a
+                >
+                <a href="#" class="card-link my-card-link">$0.8</a>
+                <a href="#" class="card-link my-card-link">Soft Drink</a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col zoom"
+            data-aos="fade-up-right"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0"
+            data-aos-duration="1200"
+          >
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="images/habesha.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <p class="card-text">food description goes here...</p>
+                <a
+                  href="images/habesha.jpg"
+                  target="_blank"
+                  class="card-link my-card-link"
+                  >view</a
+                >
+                <a href="#" class="card-link my-card-link">$3.5</a>
+                <a href="#" class="card-link my-card-link">Alcohol</a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col zoom"
+            data-aos="fade-up-left"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0"
+            data-aos-duration="1200"
+          >
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="images/sinq.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <p class="card-text">food description goes here...</p>
+                <a
+                  href="images/sinq.jpg"
+                  target="_blank"
+                  class="card-link my-card-link"
+                  >view</a
+                >
+                <a href="#" class="card-link my-card-link">$1.8</a>
+                <a href="#" class="card-link my-card-link">Soft Drink</a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col zoom"
+            data-aos="fade-down-left"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0"
+            data-aos-duration="1200"
+          >
+            <div class="card img-hover">
+              <img
+                class="card-img-top"
+                src="images/awash.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <p class="card-text">food description goes here...</p>
+                <a
+                  href="images/awash.jpg"
+                  target="_blank"
+                  class="card-link my-card-link"
+                  >view</a
+                >
+                <a href="#" class="card-link my-card-link">$8</a>
+                <a href="#" class="card-link my-card-link">Alcohol</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit
+            est consectetur expedita, minima optio atque aspernatur aliquid
+            omnis aut magnam rem distinctio neque perspiciatis voluptatum labore
+            ipsa. Dolore, exercitationem rerum.
+          </p>
+        </div>
+
+        <div class="row" data-aos="zoom-in-up" data-aos-duration="1200">
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>Poly Campus, Bahir Dar</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>canoecafe@gmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>9160</p>
+              </div>
+
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.402963045737!2d37.39191847402872!3d11.594593443572037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1644cf0078560e9f%3A0xc6525f986079f53f!2sCanoe%20cafe%20and%20restaurant!5e0!3m2!1sen!2set!4v1708400566531!5m2!1sen!2set"
+                frameborder="0"
+                style="border: 0; width: 100%; height: 290px"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form
+              action="forms/contact.php"
+              method="post"
+              role="form"
+              class="php-email-form"
+            >
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Your Name</label>
+                  <input
+                    type="text"
+                    name="name"
+                    class="form-control"
+                    id="name"
+                    required
+                  />
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Your Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    name="email"
+                    id="email"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name">Subject</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="subject"
+                  id="subject"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="name">Message</label>
+                <textarea
+                  class="form-control"
+                  name="message"
+                  rows="10"
+                  required
+                ></textarea>
+              </div>
+              <div class="my-3">
+                <div class="sent-message">
+                  Your message has been sent. Thank you!
+                </div>
+              </div>
+              <div class="text-center">
+                <button
+                  type="submit"
+                  class="btn btn-lg btn-outline-light w-100"
+                >
+                  Send Message
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        &copy; Copyright <strong><span>canoe cafe and restaurant</span></strong>
+      </div>
+    </section>
+    <script src="js/index.js"></script>
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Create a free accout.",
+          " Your orders, your way.",
+          " Thanks for coming!",
+        ],
+        typeSpeed: 130,
+        backSpeed: 95,
+        loop: true,
+      });
+    </script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  </body>
+</html>
