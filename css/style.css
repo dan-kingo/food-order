@@ -55,6 +55,7 @@
   .login-button {
     display: block;
     margin-bottom: 0.5rem;
+    padding: 0.3rem 1.5rem;
   }
 }
 .home-heading {
@@ -207,4 +208,7 @@ h6 {
   margin-top: 3rem;
   text-align: center;
   font-family: Montserrat;
+}
+.contact .sent-message {
+  display: none;
 }
